@@ -1,0 +1,60 @@
+'use strict';
+console.log("hello");
+
+/*
+    Learning how to CODE!!!!
+    1. Didn' have the Goal
+        Step1: Set a clear Goal, e.g. I'll become web developer within an year
+        For being motivated always think of the project that you wanna make after learning all these things!
+
+    2. John would just copy and paste the code without caring how it works!
+        Step1: Understand the code, don't just copy and paste it. Try to understand the
+        logic behind it. Try to write it yourself. If you get stuck, then take help from any where, learn the approach write the code first down in the paper do a dry run, and then without seeing the actual code try to code on your own.
+
+        Don't be hurry to finish the course fast, reinforce the concepts learned on your own!
+
+    3. Come up with your own project ideas without any course guiding you, start from scratch, no matter its small, don't be stuck in tutorial hell!!
+
+    4. While practicing don't be frustated of either, the quality of code, effeciency, perfect code, or time investing! Just do it yourself 100%
+
+    5. Don't loose motivation thinking you could never know everything, concepts are infinite just focus on what you need to achieve!
+
+    6. Don't learn in isolation, explain new concepts to new people. If you can explain it, you truly understand it.
+
+        HOW TO THINK AS A PROGRAMMER AND SOLVE THE PROBLEMS
+            Problems with JOHN::
+                1.  He jumps at the problem without much thinking. 
+                2.  He implements his solution in an unstructured way. 
+                3.  He gets stressed out when things don't work
+
+            Solution: 
+                1. Stay calm and slow down, don't just jump to solving the problem without a plan.
+                2. Take a very logical and rational appraoch (programming is just logic in the end)
+                    USE THIS 4 STEP SOLUTION TO SOLVE THE PROBLEM
+                        Step1 : Make sure you 100% understand the problem. Ask right questions to get a clear picture of the problem.
+                        For Example: 
+                            Project Manager. "We need a function that reverses whatever we pass into it"
+
+                            Questions to ask: 
+                            1. What does "whatever" even mean in this context? What should be reversed? Answer. Only strings, numbers, and arrays make sense to reverse...
+                            2. What to do if something else is passed in?
+                            3. What should be returned? Should it always be a string, or should the type be the same as passed in?
+                            4. How to recognize whether the argument is a number, a string, or an array?
+                            5. How to reverse a number, a string, and an array?
+                
+                        Step 2 : Break down a big problem into smaller sub-problems
+                        For Example if we take the example of the function that the manager asked then here's the 
+                            SUB-PROBLEMS:
+                            1. Check if argument is a number, a string, or an array
+                            2. Implement reversing a number
+                            3. Implement reversing a string
+                            4. Implement reversing an array
+                            5. Return reversed value
+                        
+                        Step 3 : Now work on these sub-problems and try to solve 'em by your own, if you tried on your own but not progressing then search for it, google, it read other person's solution etc. 
+                
+                        Step 4 : For bigger problems, write pseudo-code before actually code 
+
+                DEVELOP A GENUINE CURIOSITY ON HOW THINGS WORK AROUND YOU WORK!!! ELON MADE HIS FIRST COMPUTER GAME WHEN WAS 12, BECAUSE OF HIS CURIOSITY SO THAT'S WHY HE BECOME ONE OF THE BEST IN HIS FIELD!!!
+
+*/

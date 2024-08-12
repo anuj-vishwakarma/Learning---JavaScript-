@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Window Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .icon svg {
+            width: 100px;
+            height: 100px;
+            transition: fill 0.3s ease;
+        }
+
+        .icon svg:hover {
+            fill: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <button class="show-modal">Show Modal 1</button>
+        <button class="show-modal">Show Modal 2</button>
+        <button class="show-modal">Show Modal 3</button>
+    </header>
+
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>I'm a modal window</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas molestias neque cum quod, excepturi quis magni
+            quasi dolore, doloribus consequuntur voluptatum. Alias, consectetur odit! Facilis corporis placeat quo
+            debitis quam corrupti odit ex maxime voluptas accusamus quasi atque tempore, exercitationem porro vero
+            possimus minima. Id error in earum dignissimos beatae, saepe ex? Natus, tempore dolorem excepturi rerum eos
+            praesentium sit harum enim laboriosam illum quis.</p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- was exploring about SVGs inspired by website: https://forkify.com/ -->
+    <div class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="red">
+            <!-- Forklift base -->
+            <rect x="10" y="40" width="44" height="10" />
+            <!-- Forklift mast -->
+            <rect x="20" y="20" width="5" height="20" />
+            <!-- Forklift forks -->
+            <rect x="15" y="35" width="20" height="3" />
+            <rect x="15" y="40" width="15" height="3" />
+            <!-- Forklift wheels -->
+            <circle cx="15" cy="50" r="5" />
+            <circle cx="45" cy="50" r="5" />
+        </svg>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+&amp; – Represents the ampersand symbol (&).
+&lt; – Represents the less-than symbol (<).
+&gt; – Represents the greater-than symbol (>).
+&copy; – Represents the copyright symbol (©).
+&reg; – Represents the registered trademark symbol (®).
+&euro; – Represents the euro currency symbol (€).
+&pound; – Represents the pound sterling symbol (£).
+&dollar; – Represents the dollar symbol ($).
+&cent; – Represents the cent symbol (¢).
+&deg; – Represents the degree symbol (°).
+&times; - Represents the cross symbol(X).
+-->

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.683);
+  color: rgb(146, 255, 130);
+}
+*::selection {
+  background-color: rgb(146, 255, 130);
+  color: black;
+}
+header {
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header button {
+  height: 3vmax;
+  width: 15%;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-size: 1.4vmax;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+header button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.modal {
+  margin: auto;
+  padding: 60px;
+  margin-top: 16vh;
+  background-color: white;
+  color: black;
+  width: 80%;
+  max-width: 550px;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+}
+.modal h1 {
+  font-size: 2vmax;
+  margin-bottom: 10%;
+}
+.modal p {
+  color: rgba(0, 0, 0, 0.799);
+}
+.modal .close-modal {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  width: 45px; /* Adjust size as needed */
+  height: 45px; /* Adjust size as needed */
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 10px;
+}
+.modal .close-modal:hover {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+}
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2); /* Whitish color with transparency */
+  backdrop-filter: blur(4px); /* Adjust the blur radius as needed */
+  /* z-index: 999; Ensure the overlay is above other elements */
+}
+
+/*
+
+| Method         | Description                                         | Example                                              |
+|-------------------|-----------------------------------------------------|------------------------------------------------------|
+| `translateX()`    | Moves an element horizontally.                      | `transform: translateX(50px);`                       |
+| `translateY()`    | Moves an element vertically.                        | `transform: translateY(30px);`                       |
+| `translateZ()`    | Moves an element along the z-axis (3D).             | `transform: translateZ(100px);`                      |
+| `translate3d()`   | Moves an element in 3D space.                       | `transform: translate3d(10px, 20px, 30px);`          |
+| `rotate()`        | Rotates an element around the z-axis.               | `transform: rotate(45deg);`                          |
+| `rotateX()`       | Rotates an element around the x-axis (3D).          | `transform: rotateX(30deg);`                         |
+| `rotateY()`       | Rotates an element around the y-axis (3D).          | `transform: rotateY(45deg);`                         |
+| `rotateZ()`       | Same as `rotate()`, rotates around the z-axis (3D). | `transform: rotateZ(90deg);`                         |
+| `scaleX()`        | Scales an element horizontally.                     | `transform: scaleX(1.5);`                            |
+| `scaleY()`        | Scales an element vertically.                       | `transform: scaleY(0.5);`                            |
+| `scaleZ()`        | Scales an element along the z-axis (3D).            | `transform: scaleZ(2);`                              |
+| `scale()`         | Scales an element in both x and y directions.       | `transform: scale(2);`                               |
+| `scale3d()`       | Scales an element in 3D space.                      | `transform: scale3d(1.5, 2, 0.5);`                   |
+| `skewX()`         | Skews an element horizontally.                      | `transform: skewX(20deg);`                           |
+| `skewY()`         | Skews an element vertically.                        | `transform: skewY(15deg);`                           |
+| `skew()`          | Skews an element in both x and y directions.        | `transform: skew(30deg, 10deg);`                     |
+| `matrix()`        | Applies a 2D transformation using a matrix.         | `transform: matrix(1, 0, 0, 1, 50, 50);`             |
+| `matrix3d()`      | Applies a 3D transformation using a matrix.         | `transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);` |
+| `perspective()`   | Defines the perspective view for 3D elements.       | `transform: perspective(500px);`                    |
+| `transform-style` | Defines how nested elements are transformed in 3D space. | `transform-style: preserve-3d;`            |
+| `backface-visibility` | Defines whether the back face of an element is visible when turned towards the user. | `backface-visibility: hidden;` | 
+
+*/
